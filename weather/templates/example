@@ -1,0 +1,5 @@
+import pywapi
+
+weather_com_result = pywapi.get_weather_from_weather_com('10001')
+print(weather_com_result)
+print ("Weather.com says: It is " + weather_com_result['forecasts'][1]['high'])
